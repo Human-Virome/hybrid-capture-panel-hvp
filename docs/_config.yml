@@ -1,7 +1,7 @@
 title: Human Virome Hybrid Capture Panel
 description: A resource for hybrid capture panel design targeting human viruses
-# Use empty baseurl for local dev; GitHub Pages will override via environment
-baseurl: ""
+# Set baseurl for GitHub Pages (use --baseurl "" for local dev)
+baseurl: "/hybrid-capture-panel-hvp"
 url: "https://human-virome.github.io"
 
 # Theme

@@ -20,15 +20,21 @@ The website is automatically deployed via GitHub Pages. Visit:
 **https://human-virome.github.io/hybrid-capture-panel-hvp/**
 
 
-### Conda Environment for Local Testing
+### Local Development
 
 ```bash
-conda create -n hvp-site ruby=3.2 -c conda-forge
+# Setup (first time only)
+conda env create -f environment.yml
 conda activate hvp-site
+conda install -c conda-forge cxx-compiler make
+ln -s ~/.conda/envs/hvp-site/bin/ruby ~/.conda/envs/hvp-site/share/rubygems/bin/ruby
 gem install bundler jekyll
 cd docs
-bundle install
-bundle exec jekyll serve
+ruby -S bundle install
+
+# Run local server
+ruby -S bundle exec jekyll serve --baseurl "" --port 4001
+# Visit http://localhost:4001/
 ```
 
 ## GitHub Pages Setup

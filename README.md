@@ -6,7 +6,7 @@ A comprehensive resource for designing hybrid capture panels targeting human-inf
 
 ## Overview
 
-This repository provides curated metadata and resources for designing **hybrid capture sequencing panels** that target viruses known to infect humans. Hybrid capture enrichment is a powerful technique for detecting and characterizing viral sequences in complex clinical and environmental samples.
+This repository serves as a lightweight "platoform" for HVP scientists to provide feedback on reference genome choice for designing a **hybrid capture sequencing panel**.
 
 ## Contents
 
@@ -19,32 +19,9 @@ This repository provides curated metadata and resources for designing **hybrid c
 The website is automatically deployed via GitHub Pages. Visit:
 **https://human-virome.github.io/hybrid-capture-panel-hvp/**
 
-### Local Development
-
-To test the website locally, you have two options:
-
-#### Option 1: Simple Python server (no build required)
-```bash
-cd docs
-python -m http.server 8000
-# Visit http://localhost:8000
-```
-
-#### Option 2: Jekyll (full build with theme support)
-```bash
-cd docs
-bundle install
-bundle exec jekyll serve
-# Visit http://localhost:4000/hybrid-capture-panel-hvp/
-```
-
-**Requirements for Jekyll:**
-- Ruby 2.7+ with Bundler (`gem install bundler`)
-- Or use the provided conda environment (see below)
 
 ### Conda Environment for Local Testing
 
-If you prefer conda, create an environment with Ruby:
 ```bash
 conda create -n hvp-site ruby=3.2 -c conda-forge
 conda activate hvp-site

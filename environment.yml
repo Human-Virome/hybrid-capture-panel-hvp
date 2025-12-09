@@ -1,0 +1,10 @@
+name: hvp-site
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - ruby=3.2
+  - cxx-compiler
+  - make
+  - pip
+  - python>=3.9

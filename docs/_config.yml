@@ -1,0 +1,29 @@
+title: Human Virome Hybrid Capture Panel
+description: A resource for hybrid capture panel design targeting human viruses
+# Use empty baseurl for local dev; GitHub Pages will override via environment
+baseurl: ""
+url: "https://human-virome.github.io"
+
+# Theme
+theme: minima
+
+# Silence Sass deprecation warnings from minima theme
+sass:
+  quiet_deps: true
+  silenceDeprecations:
+    - "import"
+    - "global-builtin"
+    - "color-functions"
+
+# Navigation
+nav:
+  - name: Home
+    link: /
+  - name: Virus Metadata Cards
+    link: /metadata_cards.html
+
+# Exclude files
+exclude:
+  - README.md
+  - LICENSE
+  - .gitignore

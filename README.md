@@ -10,8 +10,8 @@ This repository serves as a lightweight "platoform" for HVP scientists to provid
 
 ## Contents
 
-- **`output/human_virus_metadata.v0.2.0.tsv`** - Curated metadata for human-infecting viruses
-- **`output/metadata_cards.v0.2.0.html`** - Interactive card viewer for browsing virus metadata
+- **`output/human_virus_metadata.v0.2.1.tsv`** - Curated metadata for human-infecting viruses
+- **`docs/metadata_cards.html`** - Interactive card viewer for browsing virus metadata
 - **`docs/`** - GitHub Pages website source
 
 ## Website

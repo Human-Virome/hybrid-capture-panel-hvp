@@ -18,7 +18,11 @@ This repository serves as a lightweight "platoform" for HVP scientists to provid
 
 - **Curated Virus Metadata**: Comprehensive information on human-infecting viruses including taxonomy, genome lengths, and reference sequences
 - **Interactive Metadata Cards**: Browse and filter virus information with our [interactive card viewer](metadata_cards.html)
-- **Link to Genome Sequences**: A bulk .fasta file of all genomes in current version !link
+- **Link to Genome Sequences**: A bulk .fasta file of all genomes in current version: 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17969663.svg)](https://doi.org/10.5281/zenodo.17969663)
+
+
+
 
 ## Quick Links
 

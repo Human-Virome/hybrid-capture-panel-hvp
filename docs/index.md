@@ -10,7 +10,7 @@ title: Home
 
 ## About This Project
 
-This repository serves as a lightweight "platoform" for HVP scientists to provide feedback on reference genome choice for designing a **hybrid capture sequencing panel**. The goal of the hybrid capture panel is to target viruses likely to infect humans. Hybrid capture enrichment is a powerful technique for detecting and characterizing viral sequences in complex clinical and environmental samples, but existing panels are missing some human-tropic viruses.
+This repository serves as a lightweight "platform" for HVP scientists to provide feedback on reference genome choice for designing a **hybrid capture sequencing panel**. The goal of the hybrid capture panel is to target viruses likely to infect humans. Hybrid capture enrichment is a powerful technique for detecting and characterizing viral sequences in complex clinical and environmental samples, but existing panels are missing some human-tropic viruses.
 
 **NOTE:** This is not a completed or official database, nor does its contents reflect the opinions of the Human Virome Program or its funding bodies. Consider this an ad hoc platform for soliciting discussion and feedback.
 
@@ -19,9 +19,7 @@ This repository serves as a lightweight "platoform" for HVP scientists to provid
 - **Curated Virus Metadata**: Comprehensive information on human-infecting viruses including taxonomy, genome lengths, and reference sequences
 - **Interactive Metadata Cards**: Browse and filter virus information with our [interactive card viewer](metadata_cards.html)
 - **Link to Genome Sequences**: A bulk .fasta file of all genomes in current version: 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17969663.svg)](https://doi.org/10.5281/zenodo.17969663)
-
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.19560770.svg)](https://doi.org/10.5281/zenodo.19560770)
 
 
 ## Quick Links
@@ -37,6 +35,8 @@ This repository serves as a lightweight "platoform" for HVP scientists to provid
 2. **Provide Feedback**: If you see a species or genome that looks wrong, please use the buttons and comment box in the species cards. Then, download your feedback and post it in the HVP Slack Channel.
 3. **Download the data**: Raw metadata is available in TSV format in the `output/` directory in the GitHub page. `.tsv` files can be opened in Microsoft Excel for easy perusal.
 
+## Disclaimer
+Material Disclaimer: This genomic dataset was curated by Michael Tisza and Todd Wylie and is provided as a secondary resource. The Human Virome Program does not guarantee the accuracy, completeness, or quality of this data. The user accepts all risks associated with the analysis, and interpretation of this information.
 
 ---
 

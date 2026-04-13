@@ -6,11 +6,11 @@ A comprehensive resource for designing hybrid capture panels targeting human-inf
 
 ## Overview
 
-This repository serves as a lightweight "platoform" for HVP scientists to provide feedback on reference genome choice for designing a **hybrid capture sequencing panel**.
+This repository serves as a lightweight "platform" for HVP scientists to provide feedback on reference genome choice for designing a **hybrid capture sequencing panel**.
 
 ## Contents
 
-- **`output/human_virus_metadata.v0.2.1.tsv`** - Curated metadata for human-infecting viruses
+- **`output/human_virome_v0.4.4.metadata.tsv`** - Curated metadata for human-infecting viruses
 - **`docs/metadata_cards.html`** - Interactive card viewer for browsing virus metadata
 - **`docs/`** - GitHub Pages website source
 
@@ -51,4 +51,4 @@ We welcome contributions! Please submit issues and pull requests on GitHub.
 
 ## License
 
-See [LICENSE](LICENSE) for details
+See software [LICENSE](LICENSE) for details. May differ from database license.
